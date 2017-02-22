@@ -1,2 +1,2 @@
 # TDDKatas
-Kata programs for TDD practise
+Kata programs for TDD practice
