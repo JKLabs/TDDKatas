@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class PrimeFactors {
 
-	public List<Integer> of(int n) {
+	public static List<Integer> of(int n) {
 		List<Integer> primeFactors = new ArrayList<Integer>();
 		int divisor = 2;
 
