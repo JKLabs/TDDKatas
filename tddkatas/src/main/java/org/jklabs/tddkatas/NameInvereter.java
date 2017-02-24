@@ -39,12 +39,12 @@ public class NameInvereter {
 
 	private static List<String> breakIntoNamePartsIgnoringSpaces(String name) {
 		return new ArrayList<String>(Arrays.asList(
-				name.trim().split(RegulasrExpressions.ANY_NUMBER_OF_SPACES)));
+				name.trim().split(RegularExpressions.ANY_NUMBER_OF_SPACES)));
 	}
 
 }
 
-class RegulasrExpressions {
+class RegularExpressions {
 	public static final String ANY_NUMBER_OF_SPACES = "\\s+";
 }
 
